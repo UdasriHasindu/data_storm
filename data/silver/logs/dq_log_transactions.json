@@ -1,0 +1,83 @@
+{
+  "dataset": "transactions",
+  "timestamp": "2026-05-16T11:36:01.895799",
+  "original_row_count": 2376389,
+  "clean_row_count": 2309847,
+  "rejected_row_count": 66542,
+  "rejection_rate_pct": 2.8,
+  "checks_applied": [
+    {
+      "check": "null_check",
+      "params": {
+        "cols": [
+          "Outlet_ID",
+          "Year",
+          "Month",
+          "Distributor_ID",
+          "SKU_ID",
+          "Volume_Liters"
+        ]
+      },
+      "flagged_count": 0
+    },
+    {
+      "check": "duplicate_check",
+      "params": {
+        "key": "composite"
+      },
+      "flagged_count": 61909
+    },
+    {
+      "check": "value_range_volume_min",
+      "params": {
+        "min": 0.001
+      },
+      "flagged_count": 4632
+    },
+    {
+      "check": "extreme_outlier",
+      "params": {
+        "max": 2706.029284252289
+      },
+      "flagged_count": 1
+    },
+    {
+      "check": "ref_integrity_distributor",
+      "params": {
+        "valid_count": 10
+      },
+      "flagged_count": 0
+    },
+    {
+      "check": "format_outlet_id",
+      "params": {
+        "fmt": "OUT_XXXXX"
+      },
+      "flagged_count": 0
+    },
+    {
+      "check": "range_year",
+      "params": {
+        "min": 2020,
+        "max": 2026
+      },
+      "flagged_count": 0
+    },
+    {
+      "check": "range_month",
+      "params": {
+        "min": 1,
+        "max": 12
+      },
+      "flagged_count": 0
+    },
+    {
+      "check": "cross_field_bill",
+      "flagged_count": 0
+    },
+    {
+      "check": "ghost_entry_flag",
+      "flagged_count": 0
+    }
+  ]
+}

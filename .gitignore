@@ -45,7 +45,6 @@ outputs/**/*.xlsx
 
 # Keep manifests/log metadata if needed
 !data/bronze/ingestion_manifest.json
-!outputs/predictions/data_storm_team_predictions.csv
 
 
 # =========================
@@ -70,3 +69,8 @@ outputs/**/*.xlsx
 # =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# Force track specific outputs
+# =========================
+!outputs/predictions/data_storm_team_predictions.csv

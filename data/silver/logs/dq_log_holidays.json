@@ -1,0 +1,22 @@
+{
+  "dataset": "holidays",
+  "timestamp": "2026-05-16T11:36:02.126905",
+  "original_row_count": 349,
+  "clean_row_count": 0,
+  "rejected_row_count": 349,
+  "rejection_rate_pct": 100.0,
+  "checks_applied": [
+    {
+      "check": "null_check",
+      "flagged_count": 0
+    },
+    {
+      "check": "format_date",
+      "flagged_count": 349
+    },
+    {
+      "check": "duplicate_check",
+      "flagged_count": 0
+    }
+  ]
+}

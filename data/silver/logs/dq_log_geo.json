@@ -1,0 +1,30 @@
+{
+  "dataset": "geo",
+  "timestamp": "2026-05-16T11:36:02.092719",
+  "original_row_count": 20000,
+  "clean_row_count": 19760,
+  "rejected_row_count": 240,
+  "rejection_rate_pct": 1.2,
+  "checks_applied": [
+    {
+      "check": "null_check",
+      "flagged_count": 0
+    },
+    {
+      "check": "duplicate_check",
+      "flagged_count": 0
+    },
+    {
+      "check": "geo_bounds",
+      "flagged_count": 240
+    },
+    {
+      "check": "coord_duplicate_flag",
+      "flagged_count": 0
+    },
+    {
+      "check": "format_outlet_id",
+      "flagged_count": 0
+    }
+  ]
+}

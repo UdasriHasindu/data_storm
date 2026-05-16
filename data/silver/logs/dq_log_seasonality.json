@@ -1,0 +1,22 @@
+{
+  "dataset": "seasonality",
+  "timestamp": "2026-05-16T11:36:02.104416",
+  "original_row_count": 360,
+  "clean_row_count": 360,
+  "rejected_row_count": 0,
+  "rejection_rate_pct": 0.0,
+  "checks_applied": [
+    {
+      "check": "null_check",
+      "flagged_count": 0
+    },
+    {
+      "check": "ref_integrity",
+      "flagged_count": 0
+    },
+    {
+      "check": "ref_seasonality",
+      "flagged_count": 0
+    }
+  ]
+}

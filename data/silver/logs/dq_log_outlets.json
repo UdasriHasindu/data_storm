@@ -1,0 +1,36 @@
+{
+  "dataset": "outlets",
+  "timestamp": "2026-05-16T11:36:01.979225",
+  "original_row_count": 20000,
+  "clean_row_count": 20000,
+  "rejected_row_count": 0,
+  "rejection_rate_pct": 0.0,
+  "checks_applied": [
+    {
+      "check": "null_check",
+      "params": {
+        "cols": [
+          "Outlet_ID",
+          "Outlet_Type"
+        ]
+      },
+      "flagged_count": 0
+    },
+    {
+      "check": "duplicate_check",
+      "flagged_count": 0
+    },
+    {
+      "check": "format_outlet_id",
+      "flagged_count": 0
+    },
+    {
+      "check": "ref_integrity_type",
+      "flagged_count": 0
+    },
+    {
+      "check": "range_cooler",
+      "flagged_count": 0
+    }
+  ]
+}
