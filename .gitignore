@@ -1,0 +1,71 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data Lake Layers
+# =========================
+
+# Ignore actual datasets
+data/raw/**/*.csv
+data/raw/**/*.xlsx
+data/raw/**/*.json
+data/raw/**/*.parquet
+data/bronze/**/*.csv
+data/bronze/**/*.xlsx
+data/bronze/**/*.json
+data/silver/**/*.csv
+data/silver/**/*.parquet
+data/gold/**/*.csv
+data/gold/**/*.parquet
+outputs/**/*.csv
+outputs/**/*.xlsx
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# Keep manifests/log metadata if needed
+!data/bronze/ingestion_manifest.json
+
+
+# =========================
+# Models
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Large Data Files
+# =========================
+*.csv
+*.parquet
+*.feather
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
