@@ -45,6 +45,7 @@ outputs/**/*.xlsx
 
 # Keep manifests/log metadata if needed
 !data/bronze/ingestion_manifest.json
+!outputs/predictions/data_storm_team_predictions.csv
 
 
 # =========================
