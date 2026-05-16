@@ -157,5 +157,5 @@ Bronze (Raw) → Silver (Cleaned) → Gold (Enriched) → Model → Output
 - **Seasonality adjustment**: multiply by January seasonal index
 - **Sanity floor**: must be ≥ outlet's historical mean
 
-## Team
-Data Storm Team — University of Moratuwa
+
+
